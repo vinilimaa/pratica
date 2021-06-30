@@ -21,7 +21,6 @@ a {
   background-color: #726a95;
   color: #a0c1b8;
   display: inline-flex;
-  text-align: center;
   align-items: center;
   height: 2.5rem;
   border-radius: 0.25rem;
@@ -51,6 +50,7 @@ span {
   padding: 1.5rem 0;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  border: 0.041rem solid #719fb0;
 }
 
 img {
@@ -66,4 +66,9 @@ li {
 a {
   color: #a0c1b8;
   font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #726a95;
 }
