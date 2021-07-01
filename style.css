@@ -11,25 +11,28 @@ a {
 
 .container {
   padding: 1.5rem 1.5rem;
+  position: relative;
 }
 
 .t1 {
   color: #a0c1b8;
+  font-family: 'Poppins', sans-serif;
 }
 .button {
-  margin-top: 1rem;
-  background-color: #726a95;
+  background-color: #5f2f68;
   color: #a0c1b8;
   display: inline-flex;
+  text-align: center;
   align-items: center;
   height: 2.5rem;
   border-radius: 0.25rem;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 1.5rem;
 }
 
 .button:hover {
-  color: #351f39;
-  transition-delay: 80ms;
+  background-color: #351f39;
+  transition-delay: 100ms;
 }
 
 .text {
@@ -50,7 +53,7 @@ span {
   padding: 1.5rem 0;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  border: 0.041rem solid #719fb0;
+  border-bottom: 0.041rem solid #719fb0;
 }
 
 img {
@@ -59,16 +62,26 @@ img {
 }
 
 li {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #a0c1b8;
 }
 
 a {
   color: #a0c1b8;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #726a95;
+}
+
+body {
+  text-align: center;
+}
+
+.powered {
+  font-family: 'Poppins', sans-serif;
+  color: #726a95;
+  font-size: 1rem;
 }
