@@ -1,42 +1,77 @@
-*{
+*{ 
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+
 }
+
 
 body{
-    background-color: #e5e5e5;
+    background-color: lightgray;
 }
 
 
-.topo{
-    color: white;
-    background-color: orangered;
-    border-radius: .25rem;
-    padding: 1rem 1rem;
+.row {
+
+    box-shadow: 0 0 10px 0 #AAAAAA;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    
 }
 
+
+
+
+
+.topo {
+background-color: orangered;
+
+
+}
+
+
+
+p{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.prato {
+   
+    cursor: pointer; 
+}
+
+.bebida {
+    
+    color: black;
+    cursor: pointer;
+   
+    
+}
+
+
+
+.sobremesa {
+    color: black;
+    cursor: pointer;
+   
+}
 
 img{
-    width: 130px;
-    height: 80px;
     float: right;
+    width: 100px;
+    height: 60px;
+}
+
+#Topo{
+   background-color: orangered;
+   color: white;
+   border-radius: .25rem;
+}
+
+.button {
+    background: green;
+    color: white;
     border-radius: .25rem;
-    margin-top: 1rem;
+    width: 15rem;
+    
 }
-
-.cardapio{
-    background-color: white;
-    border-radius: .25rem;
-    padding: 1rem 1rem;
-    margin-bottom: .75rem;
-    box-shadow: 0 0 10px 0 #AAAAAA;
-    cursor: pointer;
-    border: 5px solid white;    
-}
-
-
-
-a{
-    text-decoration: none;
-}
-
