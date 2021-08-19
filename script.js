@@ -63,7 +63,9 @@ function escolherSorvete (){
 }
 
 function finalizarPedido () {
-    alert("Você pediu: " + prato  + ", " + bebida + " e " + sobremesa +".");
+    let msg;
+    msg = "Eu gostaria de pedir: " + prato  + ", " + bebida + " e " + sobremesa +".";
+    window.open("https://wa.me/+5587999999999?text=" + msg);
    
    
 }
