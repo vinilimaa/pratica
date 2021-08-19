@@ -3,18 +3,18 @@ let prato, bebida, sobremesa;
 
 function escolherFarofa() {
 
-document.getElementById("farofa").style.borderColor = "green";
-document.getElementById("arroz").style.borderColor = "white";
-document.getElementById("prato").style.borderColor = "white";
+document.getElementById("farofa").style.border = "2px solid green";
+document.getElementById("arroz").style.border = "white";
+document.getElementById("prato").style.border = "white";
 prato="Farofa";
 
 
 }
 
 function escolherArroz () {
-    document.getElementById("farofa").style.borderColor = "white";
-    document.getElementById("arroz").style.borderColor = "green";
-    document.getElementById("prato").style.borderColor = "white";
+    document.getElementById("farofa").style.border = "2px solid white";
+    document.getElementById("arroz").style.border = "2px solid green";
+    document.getElementById("prato").style.border = "2px solid white";
     prato = "Arroz";
    
     
@@ -22,9 +22,9 @@ function escolherArroz () {
 }
 
 function escolherPrato () {
-    document.getElementById("farofa").style.borderColor = "white";
-    document.getElementById("arroz").style.borderColor = "white";
-    document.getElementById("prato").style.borderColor = "green";
+    document.getElementById("farofa").style.border= "2px solid white";
+    document.getElementById("arroz").style.border = "2px solid white";
+    document.getElementById("prato").style.border = "2px solid green";
     prato = "Prato-feito";
    
 
@@ -32,8 +32,9 @@ function escolherPrato () {
 }
 
 function escolherSuco () {
-    document.getElementById("suco").style.borderColor = "green";
-    document.getElementById("coca").style.borderColor = "white";
+    document.getElementById("suco").style.border = "2px solid green";
+    document.getElementById("coca").style.border = "2px solid white";
+    document.getElementById("chopp").style.border = "2px solid white";
     bebida = "Suco";
    
 
@@ -41,22 +42,43 @@ function escolherSuco () {
 
 function escolherCoca () {
 
-    document.getElementById("suco").style.borderColor = "white";
-    document.getElementById("coca").style.borderColor = "green";
+    document.getElementById("suco").style.border = "2px solid white";
+    document.getElementById("coca").style.border = "2px solid green";
+    document.getElementById("chopp").style.border = "2px solid white";
     bebida = "Coca-Cola"
     
 }
 
+function escolherChopp () {
+
+    document.getElementById("suco").style.border = "2px solid white";
+    document.getElementById("chopp").style.border = "2px solid green";
+    document.getElementById("coca").style.border = "2px solid white";
+    bebida = "Chopp"
+    
+}
+
+
 function escolherPudim(){
-    document.getElementById("pudim").style.borderColor = "green";
-    document.getElementById("sorvete").style.borderColor = "white";
+    document.getElementById("pudim").style.border = "2px solid green";
+    document.getElementById("sorvete").style.border = "2px solid white";
+    document.getElementById("cup").style.border = "2px solid white";
     sobremesa = "Pudim";
     
 }
 
+function escolherCup(){
+    document.getElementById("cup").style.border = "2px solid green";
+    document.getElementById("sorvete").style.border = "2px solid white";
+    document.getElementById("pudim").style.border = "2px solid white";
+    sobremesa = "Cupcake";
+    
+}
+
 function escolherSorvete (){
-    document.getElementById("pudim").style.borderColor = "white";
-    document.getElementById("sorvete").style.borderColor = "green";
+    document.getElementById("pudim").style.border = "2px solid white";
+    document.getElementById("sorvete").style.border = "2px solid green";
+    document.getElementById("cup").style.border = "2px solid white";
     sobremesa = "Sorvete";
     
 
@@ -69,4 +91,6 @@ function finalizarPedido () {
    
    
 }
+
+
 
